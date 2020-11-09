@@ -1,0 +1,53 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5f9ea0;
+    border-radius: 4px 4px 0 0;
+    height: 10vh;
+    width: 100%;
+}
+
+.typing {
+    font-style: italic;
+}
+  
+.leftInnerContainer {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+  
+.onlineIcon {
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 650px) {
+    .infoBar .sign-out {
+        display: none;
+    }
+
+    .leftInnerContainer {
+        margin-left: 7%;
+    }
+
+    .infoBar {
+        justify-content: initial;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+    .infoBar .sign-out {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .infoBar .sign-out span {
+        color: white;
+    }
+
+}
