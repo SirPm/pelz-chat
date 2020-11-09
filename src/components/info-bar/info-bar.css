@@ -44,6 +44,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: fit-content;
+        text-decoration: none;
+        color: white;
     }
 
     .infoBar .sign-out span {

@@ -24,6 +24,7 @@
     font-size: 2.5em;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
+    margin-bottom: 3rem;
 }
 
 .sign-in {
@@ -43,16 +44,16 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    .joinOuterContainer {
-        height: 100%;
+@media screen and (min-width: 850px) {
+    .sign-up-div-inner {
+        width: 40%;
     }
+}
 
-    .joinInnerContainer {
-        width: 90%;
+@media (min-width: 650px) and (max-width: 850px) {
+    .sign-up-div-inner {
+        width: 45%;
     }
-
-
 }
 
 button:focus {

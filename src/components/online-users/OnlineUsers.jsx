@@ -33,10 +33,10 @@ const OnlineUsers = ({ users }) => {
                         </ul>
                     ) : null
                 }            
-                <div className="sign-out-mobile">
+                <a href="/" className="sign-out-mobile">
                     <i className="fas fa-power-off"></i>
                     <span>Sign Out</span>
-                </div>
+                </a>
             </nav>
         </div>
     )

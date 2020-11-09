@@ -13,10 +13,10 @@ const InfoBar = ({ nick, typingMsg }) => {
                 <span className="nick">{nick}</span>
                 <span className='typing'>{typingMsg}</span>
             </div>
-            <div className="sign-out">
+            <a href="/" className="sign-out">
                 <i className="fas fa-power-off"></i>
                 <span>Sign Out</span>
-            </div>
+            </a>
         </div>
     )
 }

@@ -1,19 +1,19 @@
 .chat-div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100vh;
-    background-color: #1A1A1D;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-color: #1A1A1D;
 }
   
 .chat-div-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #FFFFFF;
-    border-radius: 8px;
-    width: 70%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 70%;
+  height: 100%;
 }
   
 @media (min-width: 320px) and (max-width: 650px) {
