@@ -11,7 +11,7 @@ import './chat.css';
 
 let socket;
 
-const Chat = ({ location }) => {
+const Chat = ({ location, history, setError }) => {
     // all states to be used
     const [ nick, setNick ] = useState('');
     const [ message, setMessage ] = useState('');
@@ -20,8 +20,14 @@ const Chat = ({ location }) => {
     const [ typingStatus, setTypingStatus ] = useState(false);
     const [ typingMsg, setTypingMsg ] = useState('');
 
+
     // the host that the server is running on
     const ENDPOINT = 'https://pelz-chat.herokuapp.com/';
+    
+    /* 
+        Used before deploying
+        const ENDPOINT = 'localhost:5000'; 
+    */
 
     // sign in the user and sign out the user when they disconnect
     useEffect( () => {
@@ -30,15 +36,19 @@ const Chat = ({ location }) => {
         setNick(nick);
 
         socket = io(ENDPOINT);
-        socket.emit('signin', { nick }, () => {
-
+        socket.emit('signin', { nick }, (error) => {
+            if (error) {
+                console.log(error);
+                setError(error);
+                history.push('/');
+            }
         });
 
         return () => {
             socket.emit('disconnect') 
             socket.off()
         }
-    }, [ENDPOINT, location.search] );
+    }, [ENDPOINT, location.search, history, setError ] );
 
     // listen for message from the server
     useEffect( () => {

@@ -87,6 +87,7 @@
   padding-left: 0;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
 }
   
 .nav .menu-nav.open {
