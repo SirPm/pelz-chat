@@ -54,3 +54,9 @@
     }
 
 }
+
+@media only screen and (max-width: 650px) {
+    .infoBar {
+        height: 7vh;
+    }
+}

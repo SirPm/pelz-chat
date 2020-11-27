@@ -32,3 +32,9 @@ input:focus, textarea:focus, select:focus{
     width: 20%;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 650px) {
+    .form {
+        height: 6vh;
+    }
+}

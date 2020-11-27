@@ -5,3 +5,9 @@
     height: 83vh;
     background-color: #ffffff;
 }
+
+@media only screen and (max-width: 650px) {
+    .messages {
+        height: 79vh;
+    }
+}
