@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     align-items: center;
-    background-color: #5f9ea0;
-
+    /* background: linear-gradient(to left, #aa076b, #800080); */
+    background: linear-gradient(to right, #ad5389, #3c1053);
 }
 
 .alert {
@@ -72,7 +72,7 @@
 
 .no-nick {
     width: 80%;
-    background-color: red;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,7 +81,6 @@
     top: 5.5rem;
     padding: 20px;
     color: white;
-    border: 1px solid red;
 }
 
 .no-nick .fas {
@@ -97,7 +96,7 @@
 }
     
 .label {
-    color: #8b008b;
+    color: #f4a460;
     font-style: italic;
     font-weight: bold;
 }
@@ -131,9 +130,7 @@
     width: 100%;
     cursor: pointer;
     margin-top: 20px;
-    background: #c0c0aa;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #41295a, #800080);
 
 }
 

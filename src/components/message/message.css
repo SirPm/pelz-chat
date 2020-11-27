@@ -30,7 +30,7 @@
 .userName {
     display: flex;
     align-items: center;
-    color: #696969;
+    color: #272727;
     letter-spacing: 0.3px;
 }
   
@@ -51,17 +51,19 @@
 }
   
 .colorWhite {
-    color: white;
+    color: #add8e6;
 }
   
 .colorDark {
-    color: #353535;
+    color: #add8e6;
 }
   
 .backgroundBlue {
-    background: #5f9ea0;
+    /* background: linear-gradient(to left, #aa076b, #800080); */
+    background: linear-gradient(to right, #ad5389, #3c1053);
 }
   
 .backgroundLight {
-    background: #7fffd4;
+    /* background: linear-gradient(to left, #aa076b, #800080); */
+    background: linear-gradient(to right, #ad5389, #3c1053);
 }

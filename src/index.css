@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+#root {
+    height: 100vh;
+}
+
 html, body {
     font-family: 'Nunito Sans', sans-serif;
 }

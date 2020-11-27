@@ -11,16 +11,22 @@
     width: 80%;
     font-size: 1rem;
 }
+
+.input::placeholder {
+    color: #660066;
+    font-style: italic;
+}
   
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
   
 .sendButton {
-    color: #fff;
+    color: #add8e6;
     text-transform: uppercase;
     text-decoration: none;
-    background: #5f9ea0;
+    /* background: linear-gradient(to left, #aa076b, #800080); */
+    background: linear-gradient(to right, #ad5389, #3c1053);
     display: inline-block;
     border: none;
     width: 20%;

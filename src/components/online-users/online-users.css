@@ -15,8 +15,8 @@
   
 .menu-btn__burger {
   width: 28px;
-  height: 3px;
-  background-color: #ffffff;
+  height: 2px;
+  background-color: #add8e6;
   position: absolute;
   top: 0.5rem;
   right: 0;
@@ -27,8 +27,8 @@
   content: '';
   width: 28px;
   top: -8px;
-  height: 3px;
-  background-color: #ffffff;
+  height: 2px;
+  background-color: #add8e6;
   position: absolute;
   transition: 0.5s ease-in-out;
 }
@@ -37,8 +37,8 @@
   content: '';
   width: 20px;
   top: 8px;
-  height: 3px;
-  background-color: #ffffff;
+  height: 2px;
+  background-color: #add8e6;
   position: absolute;
   transition: 0.5s ease-in-out;
 }
@@ -66,7 +66,9 @@
   visibility: hidden;
   z-index: 200;
   height: 100vh;
-  background-color: #272727;
+  /* background: linear-gradient(to left, #aa076b, #800080); */
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  color: #add8e6;
 }
 
 .nav.open {
@@ -119,7 +121,7 @@
   flex-direction: column;
   width: fit-content;
   text-decoration: none;
-  color: white;
+  color: #add8e6;
   margin: auto;
 }
 

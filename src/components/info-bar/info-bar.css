@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #5f9ea0;
+    /* background: linear-gradient(to left, #aa076b, #800080); */
+    background: linear-gradient(to right, #ad5389, #3c1053);
     border-radius: 4px 4px 0 0;
     height: 10vh;
     width: 100%;
@@ -16,7 +17,7 @@
     flex: 0.5;
     display: flex;
     align-items: center;
-    color: white;
+    color: #add8e6;
 }
   
 .onlineIcon {
@@ -46,11 +47,10 @@
         flex-direction: column;
         width: fit-content;
         text-decoration: none;
-        color: white;
     }
 
     .infoBar .sign-out span {
-        color: white;
+        color: #add8e6;
     }
 
 }
