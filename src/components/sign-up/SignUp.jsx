@@ -87,7 +87,6 @@ const SignUp = ({ error, setError }) => {
                     <button className='sign-in' type='submit'>Sign In</button>
                 </Link>
             </div> */}
-            <h1>testing</h1>
         </div>   
     )
 }
