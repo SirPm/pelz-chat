@@ -48,7 +48,7 @@ const SignUp = ({ error, setError }) => {
 
     return(
         <div className='sign-up-div'>
-            <div className={
+            {/* <div className={
                 `alert ${ show ? 
                     'show showAlert' :  
                     'hide' 
@@ -86,7 +86,7 @@ const SignUp = ({ error, setError }) => {
                     } }>
                     <button className='sign-in' type='submit'>Sign In</button>
                 </Link>
-            </div>
+            </div> */}
         </div>   
     )
 }

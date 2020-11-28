@@ -6,7 +6,6 @@
     align-items: center;
     /* background: linear-gradient(to left, #aa076b, #800080); */
     background: linear-gradient(to right, #ad5389, #3c1053);
-    overflow: scroll;
 }
 
 .alert {
