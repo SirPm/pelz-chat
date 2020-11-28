@@ -89,6 +89,9 @@
 
 .hidden {
     display: none;
+    font-style: italic;
+    text-align: initial;
+    text-emphasis: none;
 }
 
 .nickAlert {
