@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* height: 100%; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    padding: 26.4vh 0;
     align-items: center;
     /* background: linear-gradient(to left, #aa076b, #800080); */
     background: linear-gradient(to right, #ad5389, #3c1053);
@@ -114,10 +114,10 @@
 
 .heading {
     color: white;
-    /* font-size: 2.5em; */
+    font-size: 2.5em;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
-    /* margin-bottom: 3rem; */
+    margin-bottom: 3rem;
 }
 
 .sign-in {
@@ -150,3 +150,5 @@
 button:focus {
     outline: 0;
 } 
+
+/* testing mobile responsivity */
