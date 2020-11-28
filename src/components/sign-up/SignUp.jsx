@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React/* , { useState, useEffect } */ from 'react';
+// import { Link } from 'react-router-dom';
 
 import './sign-up.css';
 
 const SignUp = ({ error, setError }) => {
-    const [ nick, setNick ] = useState('');
+    /* const [ nick, setNick ] = useState('');
     const [ show, setShow ] = useState(false);
     const [ noNick, setNoNick ] = useState(false);
 
@@ -45,7 +45,7 @@ const SignUp = ({ error, setError }) => {
         }
 
     }, [noNick] );
-
+ */
     return(
         <div className='sign-up-div'>
             {/* <div className={
