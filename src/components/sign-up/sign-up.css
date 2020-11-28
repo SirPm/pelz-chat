@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* min-height: 100vh; */
-    padding: 26.4vh 0;
+    height: 100vh !important; 
     align-items: center;
     /* background: linear-gradient(to left, #aa076b, #800080); */
     background: linear-gradient(to right, #ad5389, #3c1053);
@@ -151,4 +150,4 @@ button:focus {
     outline: 0;
 } 
 
-/* testing mobile responsivity */
+/* testing mobile responsivity 11 */

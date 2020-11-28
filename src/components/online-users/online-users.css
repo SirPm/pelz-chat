@@ -65,8 +65,7 @@
   opacity: 0.98;
   visibility: hidden;
   z-index: 200;
-  /* height: 100vh; */
-  padding: 4.5vh 0;
+  height: 100vh;
   /* background: linear-gradient(to left, #aa076b, #800080); */
   background: linear-gradient(to right, #ad5389, #3c1053);
   color: #add8e6;
