@@ -55,8 +55,9 @@
 
 }
 
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
     .infoBar {
-        height: 7vh;
+        height: fit-content;
+        padding: 20px 0;
     }
-}
+} */
